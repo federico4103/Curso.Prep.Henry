@@ -8,12 +8,23 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
 
+    
+        display:flex;
+        text-align: center;
+        
 }
+
+
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+
+header{
+       position:static;
+
+}
 
 
 
@@ -21,18 +32,33 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+header{
+       position:relative;
 
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 
+header{
+       position:absolute;
 
+}
 
 /* Ejercicio 5: */
 
+
 /* Acá va tu código */
 
+header{
+       position:fixed;
 
+}
 
 /* Ejercicio 6. */
+
+header{
+       position:sticky;
+
+}
